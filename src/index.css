@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap");
+
+/* Font Family */
+* {
+  font-family: "Fira Code", monospace;
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+/* Primary Colors */
+.text-navy {
+  color: #01080e;
+}
+.bg-navy {
+  background-color: #01080e;
+}
+.text-teal {
+  color: #011627;
+}
+.bg-teal {
+  background-color: #011627;
+}
+.text-charcoal {
+  color: #011221;
+}
+.bg-charcoal {
+  background-color: #011221;
+}
+.text-soft-gray {
+  color: #e5e9f0;
+}
+.bg-soft-gray {
+  background-color: #e5e9f0;
+}
+
+/* Secondary Colors */
+.text-dusk {
+  color: #607b96;
+}
+.bg-dusk {
+  background-color: #607b96;
+}
+.text-seafoam {
+  color: #3c9d93;
+}
+.bg-seafoam {
+  background-color: #3c9d93;
+}
+.text-plum {
+  color: #4d5bce;
+}
+.bg-plum {
+  background-color: #4d5bce;
+}
+.text-snow {
+  color: #ffffff;
+}
+.bg-snow {
+  background-color: #ffffff;
+}
+
+/* Accent Colors */
+.text-accent-orange {
+  color: #fea55f;
+}
+.bg-accent-orange {
+  background-color: #fea55f;
+}
+.text-accent-green {
+  color: #43d9ad;
+}
+.bg-accent-green {
+  background-color: #43d9ad;
+}
+.text-accent-coral {
+  color: #e99287;
+}
+.bg-accent-coral {
+  background-color: #e99287;
+}
+.text-accent-purple {
+  color: #c98bdf;
+}
+.bg-accent-purple {
+  background-color: #c98bdf;
+}
+
+/* Line Color */
+.line-color {
+  color: #1e2d3d;
+}
+.bg-line-color {
+  background-color: #1e2d3d;
+}
+
+/* Font Sizes */
+.text-62px {
+  font-size: 62px;
+}
+.text-32px {
+  font-size: 32px;
+}
+.text-18px {
+  font-size: 18px;
+}
+.text-16px {
+  font-size: 16px;
+}
+.text-14px {
+  font-size: 14px;
+}
+
+/* link no decoration */
+
+.link-no-decoration, a {
+  text-decoration: none !important;
+}
+
+@media screen and (max-width: 768px) {
+  .text-62px {
+    font-size: 32px;
+  }
+  .text-32px {
+    font-size: 18px;
+  }
+  .text-18px {
+    font-size: 16px;
+  }
+  .text-16px {
+    font-size: 14px;
+  }
+  .text-14px {
+    font-size: 12px;
+  }
+}

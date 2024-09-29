@@ -1,0 +1,11 @@
+.Contact{
+    width: 100%;
+    height: 100%;
+}
+
+/* TODO: Delete it */
+.temp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
